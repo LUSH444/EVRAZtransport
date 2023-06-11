@@ -1,0 +1,79 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container {
+    width: 100%;
+    position: relative;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  align-content:center;
+}
+
+.selecttitle {
+    text-align: center;
+    padding: 15px 0 0 0;
+}
+
+.selectroute {
+    width: 100%;
+    height: auto;
+    padding: 7px 5px 10px 10px;
+    white-space: pre-wrap;
+    text-align: left;
+    text-size-adjust: auto;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #FE7C04;
+}
+
+.button-route {
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    text-transform: none;
+    background: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #FE7C04;
+    margin: 20px 0 0 0;
+    padding: 5px 5px 10px 5px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.button-route:hover {
+    background: #FE7C04;
+    font-weight: 700;
+}
+
+.map {
+    width: 100%;
+    height: 700px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FE7C04;
+    margin: 25px 0px 0px 0px;
+    padding: 1px 1px 1px 1px;
+}
+
+.hide-element {
+    display: none !important;
+}

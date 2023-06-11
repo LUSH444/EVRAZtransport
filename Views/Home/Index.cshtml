@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "ЕВРАЗтранспорт";
+}
+
+<html>
+<head>
+    <link rel="stylesheet" href="~/css/site.css">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=7edc9e9b-3dad-4503-989b-5b851bb5a445&lang=ru_RU"></script>
+    <script src="~/js/style.js"></script>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-md-12 col-sm-12 col-12 col-lg-6">
+            <div class="container">
+                <p class="selecttitle"><b>Выберите сторону движения</b></p>
+                <select class="selectroute">
+                    <option>Движение автобусов с внешней стороны ЕВРАЗ НТМК</option>
+                </select>
+                <p class="selecttitle"><b>Выберите маршрут</b></p>
+                <select class="selectroute">
+                    <option>1. пр. Уральский - Комсомольская (через город)</option>
+                    <option>1. Комсомольская (через город) - пр. Уральский</option>
+                </select>
+                <p class="selecttitle"><b>На какой остановке вы находитесь?</b></p>
+                <select class="selectroute">
+                    <option>пр. Уральский 'Алеся'</option>
+                    <option>пр. Мира, ул. Циолковского</option>
+                </select>
+                <button class="button-route">Поиск автобуса</button>
+                <div id="map" class="map"></div>
+            </div>
+            <p style="text-align:center; margin-top: 25px;">Следующий автобус ожидается приблизительно в <b>06:50</b></p>
+        <div class="col-lg-3"></div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
